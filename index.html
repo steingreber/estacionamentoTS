@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Estacionamento</title>
+</head>
+<body>
+    <main>
+    <!-- <h3 id="page-title">Modo Claro On</h3> -->
+    <button aria-label="selecionar-modo" id="mode-selector">Modo Escuro</button>
+    <hr />
+    <input type="text" name="nome" id="nome" placeholder="Nome do veiculo" autocomplete="off"/>
+    <input type="text" name="placa" id="placa" placeholder="Placa do veiculo" autocomplete="off"/>
+    <hr />
+    <button id="cadastrar">Cadastrar</button>
+
+    <table id="tabelinha">
+        <thead id="titulo-table">
+            <th>Nome</th>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Açoes</th>
+        </thead>
+        <tbody id="patio"></tbody>
+    </table>
+    
+    </main>
+    <footer>@steingreber</footer>
+    <script src="./script.js"></script>
+</body>
+</html>
